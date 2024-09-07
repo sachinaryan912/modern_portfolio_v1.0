@@ -18,7 +18,7 @@ const Home = () => {
     <section>
       <Container fluid className="home-section" id="home">
       <img src={bgBlur} alt="" srcset="" className='test'/>
-        {/* <Particle /> */}
+        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
