@@ -1,0 +1,141 @@
+{
+  "home": {
+    "name": "Sachin Kumar",
+    "jobPositions": [
+      "Software Engineer",
+      "DevOps Engineer",
+      "API Developer"
+    ],
+    "compactAbout": "An experienced developer and designer dedicated to crafting innovative software solutions for businesses.",
+    "location": "Bengaluru, IN"
+  },
+  "about": {
+    "expandedAbout": "I'm Sachin Kumar, an experienced developer and designer dedicated to crafting innovative software solutions for businesses. With a year of hands-on experience, I specialize in creating functional and visually captivating experiences tailored to your unique needs. Committed to excellence, I prioritize your satisfaction and refine my work until it exceeds your expectations. Let's collaborate to elevate your business through cutting-edge technology and design innovation. Contact me to bring your ideas to life!",
+    "experience": [
+      {
+        "role": "DevOps Engineer",
+        "place": "Sysco",
+        "duration": "2023-current",
+        "location": "Houston, Texas, US · Remote"
+      },
+      {
+        "role": "Digital Specialist Engineer",
+        "place": "Infosys",
+        "duration": "2023-current",
+        "location": "Bengaluru, IN"
+      },
+      {
+        "role": "Systems Engineer",
+        "place": "Infosys",
+        "duration": "2022-2023",
+        "location": "Bengaluru, IN"
+      },
+      {
+        "role": "Freelancing",
+        "place": "",
+        "duration": "2019-current",
+        "location": "Remote"
+      }
+    ],
+    "skill": {
+      "description": "My technical skill includes proficiency in JAVA, MuleSoft, HTML, CSS, JavaScript, Spring Boot. I'm also well-versed in creating APIs, AWS Cloud, and Azure DevOps.",
+      "skills": [
+        { "logo": "./assets/images/logos/java.png", "tag": "Java" },
+        { "logo": "./assets/images/logos/html-5.png", "tag": "HTML" },
+        { "logo": "./assets/images/logos/css-3.png", "tag": "CSS" },
+        { "logo": "./assets/images/logos/js.png", "tag": "JavaScript" },
+        { "logo": "./assets/images/logos/sboot.png", "tag": "Spring Boot" },
+        { "logo": "./assets/images/logos/mule.webp", "tag": "Mulesoft" },
+        { "logo": "./assets/images/logos/azure.png", "tag": "Azure Devops" },
+        { "logo": "./assets/images/logos/figma.png", "tag": "Figma" },
+        { "logo": "./assets/images/logos/social.png", "tag": "AWS Cloud" },
+        { "logo": "./assets/images/logos/android.png", "tag": "Android Development" },
+        { "logo": "./assets/images/logos/apple.png", "tag": "IOS Development" },
+        { "logo": "./assets/images/logos/dbms.png", "tag": "DBMS" },
+        { "logo": "./assets/images/logos/google.png", "tag": "Google Cloud" }
+      ]
+    },
+    "education": [
+      {
+        "role": "Bachelor's Degree in Civil Engineering",
+        "place": "Bakhtiyarpur College of Engineering",
+        "duration": "2018-2022",
+        "location": "Bakhtiyarpur"
+      },
+      {
+        "role": "Intermediate (10+2)",
+        "place": "Shantiniketan Jubilee School,Motihari",
+        "duration": "2016-2018",
+        "location": "Motihari"
+      },
+      {
+        "role": "Matriculation",
+        "place": "Delhi Public School",
+        "duration": "2014 - 2016",
+        "location": "Motihari"
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements",
+    "description": "Here are some of my notable achievements and recognitions.",
+    "list": [
+      "Certified Java Developer",
+      "AWS Certified Solutions Architect",
+      "Winner of the 2023 Developer Hackathon"
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Have any questions or want to collaborate? Feel free to reach out!",
+    "formFields": [
+      {
+        "type": "text",
+        "name": "name",
+        "placeholder": "Your Name"
+      },
+      {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Your Email"
+      },
+      {
+        "type": "textarea",
+        "name": "message",
+        "placeholder": "Your Message",
+        "rows": 4
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "description": "Explore the details of each project to learn more about my approach, the technologies used, and the results achieved.",
+    "searchPlaceholder": "Search project...",
+    "projectsList": [
+      {
+        "title": "Project Alpha",
+        "description": "An innovative project focused on developing a cutting-edge solution for e-commerce.",
+        "technologies": ["Java", "Spring Boot", "AWS"],
+        "link": "#",
+        "image":"rng_latest.png",
+        "category": "WEB APPLICATION"
+      },
+      {
+        "title": "Project Beta",
+        "description": "A comprehensive tool designed for automating business processes.",
+        "technologies": ["JavaScript", "React", "Node.js"],
+        "link": "#",
+        "image":"tic_thumb.png",
+        "category": "WEB APPLICATION"
+      },
+      {
+        "title": "Project Gamma",
+        "description": "A mobile application aimed at improving user engagement.",
+        "technologies": ["Android", "Kotlin", "Firebase"],
+        "link": "#",
+        "image":"wallet.png",
+        "category": "WEB APPLICATION"
+      }
+    ]
+  }
+}
