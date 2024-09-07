@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Home from './pages/Home'
+import LetsConnect from './components/LetsConnect';
 import Skill from './pages/Skillset'
 import Project from './pages/Projects'
 import Resume from './pages/Resume'
@@ -46,7 +47,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <Footer />
+        <LetsConnect />
       </div>
     </Router>
   );

@@ -9,6 +9,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import data from "../database/localDB.json"
+import myImage from "../../assets/images/abt_img.png"
 
 
 
@@ -19,21 +20,22 @@ const About = () => {
         <Container fluid className="home-about-section" id="about">
           <Container>
             <Row>
+            <Col md={4} className="myAvtar">
+                <Tilt>
+                  <img src={myImage} className="img-fluid" alt="avatar" />
+                </Tilt>
+              </Col>
               <Col md={8} className="home-about-description">
-                <h1 style={{ fontSize: "2.6em" }}>
+                <h1 style={{ fontSize: "3.6em", fontWeight: "600" }}>
                   About me
                 </h1>
 
-                <p>{about.expandedAbout}</p>
+                <p style={{color: "#B8B8B8"}}>{about.expandedAbout}</p>
                 
               </Col>
-              <Col md={4} className="myAvtar">
-                <Tilt>
-                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
-                </Tilt>
-              </Col>
+              
             </Row>
-            <Row>
+            {/* <Row>
               <Col md={12} className="home-about-social">
                 <h1>FIND ME ON</h1>
                 <p>
@@ -86,7 +88,7 @@ const About = () => {
                   </li>
                 </ul>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
         </Container>
       );

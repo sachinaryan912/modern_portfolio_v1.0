@@ -97,6 +97,23 @@ html {
     width: 50%;
   }
 
+  .downBtn{
+    color: #4CE6A6;
+    border: 1px solid #024429;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 15px 25px;
+    border-radius: 50px;
+    margin-top: 28px;
+}
+
+.social_icons{
+    display: flex;
+    gap: 30px;
+    margin-top: 28px;
+}
+
   
 
 
@@ -164,6 +181,10 @@ html {
     .navbar-nav .nav-item a::after {
       display: none !important;
     }
+
+    .pic{
+      display: none;
+    }
   }
   .navbar-brand {
     color: rgb(250, 250, 250) !important;
@@ -180,6 +201,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
   }
   
   .navbar-nav .nav-link {
@@ -287,14 +309,75 @@ html {
   }
   
   .home-content {
-    padding: 9rem 0 2rem !important;
+    padding: 6rem 0 2rem !important;
     color: whitesmoke;
     text-align: left;
   }
 
+  .connect{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    color: gainsboro;
+    justify-content: center;
+    align-items: center;
+    font-size: 7em;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .arrows {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    background: none;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; 
+    
+    
+  }
+  
+  .arrows i {
+    font-size: 1em;
+    font-weight: 100;
+    opacity: 0.1;
+    margin-top: 100px;
+    color: #4CE6A6;
+    display: none;
+  }
+  
+  .connect:hover .arrows{
+    
+    background: linear-gradient(90deg, #000000d5, #20202039, #000000d5);
+    
+  
+    
+    
+  }
+  
+  .connect:hover .arrows i {
+    opacity: 1; 
+    display: block;
+    animation: move-arrow 5s linear infinite;
+  }
+  
+  @keyframes move-arrow {
+    0% { transform: translate(-50%, -50%) translateX(0); }
+    25% { transform: translate(-50%, -50%) translateX(50%); }
+    50% { transform: translate(-50%, -50%) translateX(100%); }
+    75% { transform: translate(-50%, -50%) translateX(50%); }
+    100% { transform: translate(-50%, -50%) translateX(0%); }
+  }
   
   .heading {
-    font-size: 4vw !important;
+    font-size: 3em !important;
     font-weight: 600;
     color: whitesmoke;
     /* padding-left: 50px !important; */
@@ -324,7 +407,7 @@ html {
     .Typewriter__wrapper {
       font-size: 1.4em !important;
       font-weight: 500 !important;
-      position: absolute !important;
+      /* position: absolute !important; */
     }
     .Typewriter__cursor {
       display: none !important;
@@ -333,7 +416,7 @@ html {
   
   .myAvtar {
     justify-content: center !important;
-    padding-top: 9em !important;
+    padding-top: 2em !important;
   }
   
   @media (max-width: 767px) {
@@ -346,20 +429,20 @@ html {
   .home-about-section {
     position: relative;
     padding-bottom: 70px !important;
-    padding-top: 70px !important;
+    padding-top: 0px !important;
     background-color: black;
     /* background-image: var(--image-gradient), url('./assets/home-bg.jpg'); */
   }
   
   .home-about-description {
     color: white !important;
-    padding-top: 100px !important;
+    padding-top: 2em !important;
     padding-bottom: 20px !important;
-    text-align: center;
+    text-align: left;
   }
   
   .home-about-body {
-    padding-top: 50px;
+    padding-top: 10px;
     font-size: 1.2em !important;
     text-align: left;
   }
