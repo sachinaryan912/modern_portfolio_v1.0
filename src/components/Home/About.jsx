@@ -26,7 +26,7 @@ const About = () => {
                 </Tilt>
               </Col>
               <Col md={8} className="home-about-description">
-                <h1 style={{ fontSize: "3.6em", fontWeight: "600" }}>
+                <h1 style={{ fontSize: "2.5em", fontWeight: "600" }}>
                   About me
                 </h1>
 
