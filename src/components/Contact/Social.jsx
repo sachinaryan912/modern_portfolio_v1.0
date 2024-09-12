@@ -10,7 +10,7 @@ import './Social.css'
 
 const Social = () => {
   return (
-    <Container style={{padding: '30px'}}>
+    <Container style={{paddingTop: '50px'}}>
     <Row>
               <Col md={12} className="contact-social">
                 <div className='contact-text'>

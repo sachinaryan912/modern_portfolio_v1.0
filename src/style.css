@@ -1,13 +1,13 @@
 html {
-    --section-background-color: linear-gradient(
+    /* --section-background-color: linear-gradient(
       to bottom left,
       rgb(5, 8, 40), rgb(1, 4, 39)
     );
-  
-    --image-gradient: linear-gradient(
+   */
+    /* --image-gradient: linear-gradient(
       to bottom left,
       rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
-    );
+    ); */
   
     --imp-text-color: #4CE6A6;
     --imp-bold-text-color: #4CE6A6;
@@ -24,6 +24,9 @@ html {
   button:focus {
     box-shadow: none !important;
   }
+  .textWidth{
+    width:'40vh'!important
+}
   
   /* --------- */
   /*  Preloader */
@@ -430,7 +433,7 @@ html {
     position: relative;
     padding-bottom: 70px !important;
     padding-top: 0px !important;
-    background-color: black;
+    /* : black; */
     /* background-image: var(--image-gradient), url('./assets/home-bg.jpg'); */
   }
   
@@ -569,7 +572,7 @@ html {
     padding-top: 150px !important;
     padding-bottom: 30px !important;
     background-color: black;
-    /* background-image: var(--section-background-color) !important; */
+    background-image: var(--section-background-color) !important;
     color: white !important;
   }
   
@@ -644,11 +647,11 @@ html {
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgb(31, 154, 68) !important;
   /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
-  color: white !important;
+  color: rgb(1, 4, 39) !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
+  max-height: 100% !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -658,10 +661,10 @@ html {
 }
 
 .blog-card {
-  padding-top: 50px !important;
+  /* padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
-  padding-right: 25px !important;
+  padding-right: 25px !important; */
   height: auto !important;
 }
 
@@ -713,7 +716,7 @@ html {
   color: #fff !important;
   background-color: #4CE6A6 !important;
   border-color: #4CE6A6 !important;
-  /* background-color: #6d20c5d7 !important;
+  /* : #6d20c5d7 !important;
   border-color: #6d20c5d7 !important; */
 }
 .btn:focus {
@@ -871,3 +874,11 @@ html {
   .fork-btn-inner::after {
     display: none !important;
   }
+/* handle project description */
+/* .project-desc{
+  display:block;
+}
+.project-desc:hover{
+  display: none;
+
+} */

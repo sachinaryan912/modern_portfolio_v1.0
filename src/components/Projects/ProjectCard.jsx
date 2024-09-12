@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 const ProjectCard = (props) => {
+  const [isVisible,setIsVisible]=useState(false);
   return (
     <Card
+    onClick={()=>{setIsVisible(!isVisible)}}
       className="project-card-view"
       style={{
         display: "flex",
@@ -35,7 +37,8 @@ const ProjectCard = (props) => {
         }}
       >
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
+       {isVisible && <div className="project-desc">
+       <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
           {props.description}
         </Card.Text>
         <Button
@@ -55,6 +58,7 @@ const ProjectCard = (props) => {
           <BsGithub /> &nbsp;
           {props.isBlog ? "Blog" : "GitHub"}
         </Button>
+       </div>}
         {"\n"}
         {"\n"}
 

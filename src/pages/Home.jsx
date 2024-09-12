@@ -19,7 +19,7 @@ const Home = () => {
       <Container fluid className="home-section" id="home">
       <img src={bgBlur} alt="" srcset="" className='test'/>
         <Particle />
-        <Container className="home-content">
+        <Container className="home-content" >
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 0 }} className="heading">

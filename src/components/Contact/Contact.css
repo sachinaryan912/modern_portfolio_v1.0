@@ -10,10 +10,11 @@
 .c-left{
     text-align: center !important;
     padding-top: 25px;
-    color: white !important;
+    /* color: rgb(1, 4, 39) !important; */
 }
 
 .c-right{
+    
     display: flex;
     justify-content: center;
     position: relative;
@@ -30,18 +31,18 @@
 }
 
 .c-right .user{
-    width: 24rem;
+    width: 30rem;
     height: 3rem;
     padding: 0.3em;
     outline: none;
-    border: 2px solid #40008a;
+    border: 2px solid #0f0654;
     border-radius: 8px;
     font-size: 19px;
-    color: white   
+    color: white  
 }
 
 .c-right .user:hover{
-    box-shadow: 0 0 9px #7500fa;
+    box-shadow: 0 0 9px #1b0895;
 }
 
 input{
@@ -76,5 +77,6 @@ textarea{
     .c-right .user{
         width: 16rem;
     }
+    
 
 }

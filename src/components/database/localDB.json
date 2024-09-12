@@ -1,11 +1,7 @@
 {
   "home": {
     "name": "Sauryadeep roy",
-    "jobPositions": [
-      "Software Engineer",
-      "DevOps Engineer",
-      "API Developer"
-    ],
+    "jobPositions": ["Software Engineer", "DevOps Engineer", "API Developer"],
     "compactAbout": "An experienced developer and designer dedicated to crafting innovative software solutions for businesses.",
     "location": "Bengaluru, IN"
   },
@@ -49,7 +45,10 @@
         { "logo": "./assets/images/logos/azure.png", "tag": "Azure Devops" },
         { "logo": "./assets/images/logos/figma.png", "tag": "Figma" },
         { "logo": "./assets/images/logos/social.png", "tag": "AWS Cloud" },
-        { "logo": "./assets/images/logos/android.png", "tag": "Android Development" },
+        {
+          "logo": "./assets/images/logos/android.png",
+          "tag": "Android Development"
+        },
         { "logo": "./assets/images/logos/apple.png", "tag": "IOS Development" },
         { "logo": "./assets/images/logos/dbms.png", "tag": "DBMS" },
         { "logo": "./assets/images/logos/google.png", "tag": "Google Cloud" }
@@ -105,7 +104,19 @@
         "placeholder": "Your Message",
         "rows": 4
       }
-    ]
+    ],
+    "socialmedia": [
+      { "name": "Linkdein" },
+      { "name": "Github" },
+      { "name": "Twitter" },
+      { "name": "Facebook" },
+      { "name": "Instagram" }
+
+  ],
+  "contacts":[
+    { "name": "mail" ,"value":"sauryadeeproufcc60@gmail.com"},
+    { "name": "phone","value":"7044624591" }
+  ]
   },
   "projects": {
     "title": "My Projects",
@@ -117,7 +128,7 @@
         "description": "An innovative project focused on developing a cutting-edge solution for e-commerce.",
         "technologies": ["Java", "Spring Boot", "AWS"],
         "link": "#",
-        "image":"rng_latest.png",
+        "image": "rng_latest.png",
         "category": "WEB APPLICATION"
       },
       {
@@ -125,7 +136,7 @@
         "description": "A comprehensive tool designed for automating business processes.",
         "technologies": ["JavaScript", "React", "Node.js"],
         "link": "#",
-        "image":"tic_thumb.png",
+        "image": "tic_thumb.png",
         "category": "WEB APPLICATION"
       },
       {
@@ -133,7 +144,7 @@
         "description": "A mobile application aimed at improving user engagement.",
         "technologies": ["Android", "Kotlin", "Firebase"],
         "link": "#",
-        "image":"wallet.png",
+        "image": "wallet.png",
         "category": "WEB APPLICATION"
       }
     ]
