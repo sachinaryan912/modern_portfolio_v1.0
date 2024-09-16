@@ -5,6 +5,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particle'
 import pdf from "../assets/sajib.pdf"
+import LetsConnect from '../components/LetsConnect';
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -56,6 +57,7 @@ const Resume = () => {
           </Button>
         </Row>
       </Container>
+      <LetsConnect />
     </div>
   )
 }

@@ -15,9 +15,7 @@ export default function LetsConnect() {
     
       </div>
 
-      <div className="copyright" style={{ color: 'gainsboro' }}>
-        <p>© Copyright 2024. All rights Reserved. {home.name}</p>
-      </div>
+      
       <br />
 
     </div>

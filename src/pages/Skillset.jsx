@@ -6,6 +6,7 @@ import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
 import Leetcode from "../components/Skillset/Leetcode";
 import Github from "../components/Skillset/Github";
+import LetsConnect from '../components/LetsConnect';
 
 const Skillset = () => {
   return (
@@ -26,6 +27,7 @@ const Skillset = () => {
         <Leetcode />
         <Github />
       </Container>
+      <LetsConnect />
     </Container>
   )
 }

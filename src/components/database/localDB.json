@@ -1,6 +1,6 @@
 {
   "home": {
-    "name": "Sauryadeep roy",
+    "name": "Sachin Kumar",
     "jobPositions": ["Software Engineer", "DevOps Engineer", "API Developer"],
     "compactAbout": "An experienced developer and designer dedicated to crafting innovative software solutions for businesses.",
     "location": "Bengaluru, IN"
@@ -129,6 +129,38 @@
         "technologies": ["Java", "Spring Boot", "AWS"],
         "link": "#",
         "image": "rng_latest.png",
+        "category": "WEB APPLICATION"
+      },
+      {
+        "title": "Project Beta",
+        "description": "A comprehensive tool designed for automating business processes.",
+        "technologies": ["JavaScript", "React", "Node.js"],
+        "link": "#",
+        "image": "tic_thumb.png",
+        "category": "WEB APPLICATION"
+      },
+      {
+        "title": "Project Gamma",
+        "description": "A mobile application aimed at improving user engagement.",
+        "technologies": ["Android", "Kotlin", "Firebase"],
+        "link": "#",
+        "image": "wallet.png",
+        "category": "WEB APPLICATION"
+      },
+      {
+        "title": "Project Beta",
+        "description": "A comprehensive tool designed for automating business processes.",
+        "technologies": ["JavaScript", "React", "Node.js"],
+        "link": "#",
+        "image": "tic_thumb.png",
+        "category": "WEB APPLICATION"
+      },
+      {
+        "title": "Project Gamma",
+        "description": "A mobile application aimed at improving user engagement.",
+        "technologies": ["Android", "Kotlin", "Firebase"],
+        "link": "#",
+        "image": "wallet.png",
         "category": "WEB APPLICATION"
       },
       {

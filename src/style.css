@@ -94,10 +94,14 @@ html {
     font-size: 0.9em !important;
   }
 
+  .pro_data{
+    margin-top: 10px;
+  }
+
   .test{
     position: absolute;
-    z-index: -11;
-    width: 50%;
+    z-index: -1;
+    width: 40%;
   }
 
   .downBtn{
@@ -305,8 +309,6 @@ html {
   
   .home-section {
     position: relative;
-    z-index: -1;
-    background-color: black;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
   }
@@ -433,6 +435,7 @@ html {
     position: relative;
     padding-bottom: 70px !important;
     padding-top: 0px !important;
+    background-color: black;
     /* : black; */
     /* background-image: var(--image-gradient), url('./assets/home-bg.jpg'); */
   }
@@ -625,6 +628,9 @@ html {
     }
   }
 
+  .lt_txt{
+    font-size: 10vw;
+  }
   
 /* --------- */
 /* Projects */
@@ -633,7 +639,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: black;
 }
 
 .project-card {

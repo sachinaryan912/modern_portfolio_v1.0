@@ -44,14 +44,14 @@ const Contact = () => {
   };
 
   return (
-    <Container style={{ paddingTop: "50px" }}>
+    <Container style={{ paddingTop: "30px",width:"100%" }}>
       
       <Row>
       
         {/* <Col md={6} className="c-left"> */}
           {/* <h1 className="yellow">Contact me</h1> */}
         {/* </Col> */}
-        <Col md={6} className="c-right">
+        <Col className="c-right">
           <form ref={form} onSubmit={sendEmail}>
             <input
               type="text"

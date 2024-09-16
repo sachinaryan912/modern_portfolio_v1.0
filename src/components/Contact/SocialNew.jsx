@@ -27,14 +27,14 @@ function SocialNew() {
     <Box>
         <Stack>
         <Box>
-           <Typography align="left" variant='h3'>Contacts</Typography>
+           <Typography align="left" variant='h5' style={{color: "#D9D9D9",marginTop: "20px"}}>Contacts</Typography>
            {database.contact.contacts?.map((obj)=>{
             return  <ListItemButton key={obj.value}>
             <ListItemIcon sx={{color:'green'}}>
               {iconObj[obj?.name]}
               {/* <TwitterIcon/> */}
             </ListItemIcon>
-            <ListItemText primary={obj.value} sx={{color:'white'}}/>
+            <ListItemText primary={obj.value} sx={{color:'#B8B8B8'}}/>
           </ListItemButton>
            })}
            </Box>
@@ -42,7 +42,7 @@ function SocialNew() {
            
         </Stack>
         <Stack>
-        <Typography align="left" variant='h3'>Social Media</Typography>
+        <Typography align="left" variant='h5' style={{color: "#D9D9D9",marginTop: "10px"}}>Social Media</Typography>
            <Box>
            
            {database.contact.socialmedia?.map((obj)=>{
@@ -51,7 +51,7 @@ function SocialNew() {
               {iconObj[obj?.name]}
               {/* <TwitterIcon/> */}
             </ListItemIcon>
-            <ListItemText primary={obj.name} sx={{color:'white'}}/>
+            <ListItemText primary={obj.name} sx={{color:'#B8B8B8'}}/>
           </ListItemButton>
            })}
            </Box>

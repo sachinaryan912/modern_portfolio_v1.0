@@ -47,7 +47,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
-        <LetsConnect />
+        <Footer />
       </div>
     </Router>
   );

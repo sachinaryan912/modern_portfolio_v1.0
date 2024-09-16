@@ -11,6 +11,7 @@ import linkdin from "../assets/icons/linkdin_ic.svg";
 import twitter from "../assets/icons/twitter_ic.png";
 import insta from "../assets/icons/insta_ic.png";
 import down_ic from "../assets/icons/down_ic.png";
+import LetsConnect from '../components/LetsConnect';
 
 const Home = () => {
   const home = data.home;
@@ -67,8 +68,9 @@ const Home = () => {
         </Container>
       </Container>
       <About />
-      
+      <LetsConnect />
     </section>
+    
   );
 }
 
