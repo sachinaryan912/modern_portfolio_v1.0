@@ -6,11 +6,10 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import "./Card.css";
-import images_data from "../../assets/rng_latest_1.png";
 
 export default function ProjectCardNew({ image,category, title, description,type }) {
   return (
-    <div class="card">
+    <div class="card1">
             <img src={"../../assets/" + image}  alt="TicTacToe"/>
             <div class="card-footer">
                 
