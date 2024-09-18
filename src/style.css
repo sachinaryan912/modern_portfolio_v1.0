@@ -150,6 +150,10 @@ html {
   .navbar-toggler:active {
     outline: 0 !important;
   }
+
+  body{
+    background-color: black;
+  }
   
   .navbar-toggler span:nth-child(1),
   .navbar-toggler span:nth-child(3) {
@@ -584,12 +588,12 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgb(89, 0, 190) !important;
+    border: 1.7px solid gainsboro !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(32, 143, 106, 0.37) !important;
+    /* box-shadow: 4px 5px 4px 3px rgba(32, 143, 106, 0.37) !important; */
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
@@ -603,7 +607,8 @@ html {
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgb(36, 158, 66) !important;
+    border: 2.2px solid #4CE6A6 !important;
+    color: #4CE6A6;
   }
   .tech-icon-images {
     padding: 20px !important;
@@ -745,7 +750,7 @@ html {
     position: relative !important;
     padding-top: 110px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
+    background-color: black;
     color: white !important;
     
   }
