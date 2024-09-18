@@ -747,6 +747,7 @@ html {
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white !important;
+    
   }
   
   .resume {
@@ -879,6 +880,9 @@ html {
   }
   .fork-btn-inner::after {
     display: none !important;
+  }
+  .pdf-preview{
+    
   }
 /* handle project description */
 /* .project-desc{
