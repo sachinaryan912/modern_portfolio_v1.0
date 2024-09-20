@@ -9,8 +9,11 @@ import lift from "../assets/projects/lift.png";
 import krypto from "../assets/projects/krypto.png";
 import kickstart from "../assets/projects/kickstart.png";
 import LetsConnect from '../components/LetsConnect';
+import CustomModel from "../components/Model/CustomModel";
+import { Button } from "@mui/material";
 
 const Projects = () => {
+ 
   const projects = data.projects;
   return (
     <Container fluid className="project-section">
@@ -22,13 +25,15 @@ const Projects = () => {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        {/* <Button onClick={()=>{setOpen(true)}}>modell</Button> */}
         <Row style={{ justifyContent: "center"}} className="pro_data">
         {projects.projectsList.map((project, index) => (
-            <div key={index} className="col-md-4 mb-4">
+            <div key={index} className="col-md-4 mb-4"  >
               <ProjectCardNew 
                 image={project.image}
                 title={project.title}
                 category={project.category}
+                project={project}
               />
              
             </div>
@@ -38,6 +43,7 @@ const Projects = () => {
         </Row>
       </Container>
       <LetsConnect />
+    
     </Container>
   )
 }
