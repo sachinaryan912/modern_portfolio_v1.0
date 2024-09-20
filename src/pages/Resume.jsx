@@ -21,7 +21,7 @@ const Resume = () => {
 
   useEffect(() => {
     
-    setWidth(700);
+    setWidth(701);
   }, []);
 
   return (
