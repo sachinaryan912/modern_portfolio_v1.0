@@ -12,6 +12,7 @@ import twitter from "../assets/icons/twitter_ic.png";
 import insta from "../assets/icons/insta_ic.png";
 import down_ic from "../assets/icons/down_ic.png";
 import LetsConnect from '../components/LetsConnect';
+import { MdBusinessCenter } from "react-icons/md";
 
 const Home = () => {
   const home = data.home;
@@ -41,8 +42,8 @@ const Home = () => {
               </div>
 
               <div className="downBtn">
-                <img src={down_ic} alt=""/>
-                <span>Download Resume</span>
+              <MdBusinessCenter />
+                <span style={{marginLeft: '5px'}}>Hire Me</span>
             </div>
     
             <div className="social_icons">

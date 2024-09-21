@@ -82,16 +82,19 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #38007731 !important;
+    /* background-color: #38007731 !important; */
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
     backdrop-filter: blur(15px) !important;
   }
+
+
   
   .navbar {
     position: fixed !important;
     transition: all 0.3s ease-out 0s !important;
     font-size: 0.9em !important;
+    background: black;
   }
 
   .pro_data{
@@ -113,7 +116,12 @@ html {
     padding: 15px 25px;
     border-radius: 50px;
     margin-top: 28px;
+    cursor: pointer;
 }
+
+/* .achieve{
+  padding-left: 20%;
+} */
 
 .social_icons{
     display: flex;
@@ -187,7 +195,7 @@ html {
     .navbar {
       padding: 1rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #181a27 !important;
+      /* background-color: #181a27 !important; */
     }
     .navbar-nav .nav-item a::after {
       display: none !important;

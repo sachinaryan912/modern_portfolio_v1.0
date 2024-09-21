@@ -180,5 +180,29 @@
         "category": "WEB APPLICATION"
       }
     ]
+  },
+  "achievements": {
+    "achievementsList": [
+      {
+        "title": "Infosys DevOps Professional certification",
+        "link": "#",
+        "company": "Infosys"
+      },
+      {
+        "title": "Infosys DevOps Professional certification",
+        "link": "#",
+        "company": "Infosys"
+      },
+      {
+        "title": "Infosys DevOps Professional certification",
+        "link": "#",
+        "company": "Infosys"
+      },
+      {
+        "title": "Infosys DevOps Professional certification",
+        "link": "#",
+        "company": "Infosys"
+      }
+    ]
   }
 }
