@@ -17,7 +17,7 @@ const Projects = () => {
   const projects = data.projects;
   return (
     <Container fluid className="project-section">
-      <Particle />
+      
       <Container>
         <h1 className="project-heading">
           Recent Top <strong className="yellow">Works </strong>
@@ -42,6 +42,7 @@ const Projects = () => {
           
         </Row>
       </Container>
+      <Particle />
       <LetsConnect />
     
     </Container>
