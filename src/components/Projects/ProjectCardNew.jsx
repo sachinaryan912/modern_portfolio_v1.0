@@ -17,13 +17,13 @@ export default function ProjectCardNew({ image,category, title, description,type
     setOpen(true)
   }
     return(<>
-    <div class="card1"  style={{cursor:'pointer'}}>
+    <div class="card1"  style={{cursor:'pointer'}}  onClick={handelModel}>
             <img src={"../../assets/" + image}  alt="TicTacToe"/>
             <div class="card-footer">
                 
                 <div class="card-subtitle">{category}</div>
                 <div class="card-title" >{title}</div>
-                <Button sx={{paddingRight:5}} onClick={handelModel}>view</Button>
+                {/* <Button sx={{paddingRight:5}} onClick={handelModel}>view</Button> */}
             </div>
         </div>
           <CustomModel open={open} setOpen={setOpen} project={project}/>

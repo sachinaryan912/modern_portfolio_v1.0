@@ -42,13 +42,14 @@
     font-size: 1rem;
 }
 .card-footer .card-description {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    color: #B8B8B8;
 }
 
 .card-footer .card-subtitle {
     font-size: 0.6rem;
     color: #00ffcc;
-    margin-top: 5px;
+
 }
 
 .tagline {
@@ -63,16 +64,71 @@
 }
 
 .card2 {
-    height: 100%;
+    width: 40vw;
+    padding: 30px;
     background-color: #1b1b1b;
-    border-radius: 20px;
-    overflow: hidden;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
+
+.card-footer ul{
+    font-size: 0.8rem;
+    color: #B8B8B8;
+}
+
+.heading-bar{
+    width: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.heading-bar h3{
+    font-size: 1.7rem;
+}
+
+.heading-bar .close-btn{
+    border: 1px solid red;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    margin-left: 40%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    color: darksalmon;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #121214;
+    cursor: pointer;
+}
+
+
+
+
+.close-btn:hover{
+    font-size: 0.7rem;
+    transition: font-size 0.3s ease-in;
+}
+
+@media (max-width: 767px) {
+    .card2{
+        width: 80vw;
+    }
+
+    .close-btn span{
+        display: none;
+    }
+
+
+  }
 
 .card2 img {
     width: 100%;
@@ -84,10 +140,10 @@
 }
 
 
-.card2:hover img {
+/* .card2:hover img {
     
     transform: scale(1.1);
-}
+} */
 
 .card2 .card-footer {
     width: 100%;
