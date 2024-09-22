@@ -1,0 +1,26 @@
+.table-responsive {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    color: white;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    color: gainsboro;
+  }
+  
+  th {
+    color: white;
+    background-color: #fff;
+  }
+  
+  a {
+    color: #4CE6A6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
