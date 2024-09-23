@@ -592,9 +592,9 @@ html {
   }
   
   .tech-icons {
-    font-size: 4.5em !important;
-    margin: 15px !important;
-    padding: 10px !important;
+    font-size: 2.5em !important;
+    margin: 5px !important;
+    padding: 5px !important;
     opacity: 0.93 !important;
     border: 1.7px solid gainsboro !important;
     vertical-align: middle !important;
@@ -619,7 +619,7 @@ html {
     color: #4CE6A6;
   }
   .tech-icon-images {
-    padding: 20px !important;
+    padding: 10px !important;
     line-height: 1.6 !important;
   }
   
